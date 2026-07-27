@@ -8,11 +8,7 @@ Developed as part of the **953104 – Interactive Website** course.
 
 ## Live Demo
 
-> Add your deployed website link here.
-
-Example:
-
-https://your-project.vercel.app
+(https://k-khant.github.io/kstudio-architecture-website/)
 
 ---
 
@@ -237,9 +233,7 @@ This project strengthened my understanding of:
 
 **Win Khant Ko Ko**
 
-GitHub: https://github.com/yourusername
-
-Portfolio: https://yourportfolio.com
+GitHub: https://github.com/K-Khant
 
 ---
 
