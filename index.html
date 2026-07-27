@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K.STUDIO Architecture</title>
+    <meta name="description"
+        content="Full service studio crafting immersive atmospheres to shape more meaningful and purposeful spaces for brands, people, and places.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="pre-loader">
+        <div class="pre-loader_logo-wrapper">
+            <svg width="200" height="60" viewBox="0 0 200 60" fill="none" role="img" aria-label="K.STUDIO logo">
+                <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Montserrat"
+                    font-size="36" font-weight="700" fill="white">K.STUDIO</text>
+            </svg>
+            <div class="pre-loader_bar"></div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home" class="navbar_logo-wrapper" aria-label="K.STUDIO Home">
+            <svg width="140" height="40" viewBox="0 0 140 40" fill="none" role="img" aria-label="K.STUDIO logo">
+                <text x="5" y="28" font-family="Montserrat" font-size="24" font-weight="700"
+                    fill="white">K.STUDIO</text>
+            </svg>
+        </a>
+
+        <button type="button" class="navbar_burger" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <div class="navbar_nav" role="navigation" aria-label="Main navigation">
+            <a href="#home" class="navbar_link">HOME</a>
+            <a href="#projects" class="navbar_link">PROJECTS</a>
+            <a href="#expertise" class="navbar_link">EXPERTISE</a>
+            <a href="#contact" class="navbar_link">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section_hero" id="home">
+        <div class="hero_container">
+            <div class="hero_content-wrapper">
+                <h1 class="heading-style-h1" style="text-align:center;">DESIGNING THE FUTURE</h1>
+                <h3 class="heading-style-h3">ARCHITECTURE STUDIO</h3>
+                <a href="#contact" class="hero_primary-button">
+                    <span>Contact</span>
+                </a>
+            </div>
+            <div class="hero_image-wrapper">
+                <img src="./hero.jpg" alt="house with garden at night" class="hero_bg-image">
+                <div class="hero_bg-image-overlay"></div>
+            </div>
+        </div>
+        <svg class="hero_logo" width="120" height="40" viewBox="0 0 120 40" fill="none">
+            <text x="5" y="28" font-family="Montserrat" font-size="24" font-weight="700" fill="white">K.STUDIO</text>
+        </svg>
+    </section>
+
+
+    <!-- Showcase -->
+    <section class="section_showcase" id="projects">
+        <div class="showcase_image_container is-1">
+            <div class="showcase_info-wrapper">
+                <h3 class="showcase_info-heading">AURORA RESIDENCE</h3>
+                <div class="showcase_info-text">Bangkok, Thailand | Residential</div>
+            </div>
+        </div>
+
+        <div class="showcase_image_container is-2">
+            <div class="showcase_info-wrapper">
+                <h3 class="showcase_info-heading">THE HAVEN</h3>
+                <div class="showcase_info-text">Kuala Lumpur, Malaysia | Mixed</div>
+            </div>
+        </div>
+
+        <div class="showcase_image_container is-3">
+            <div class="showcase_info-wrapper">
+                <h3 class="showcase_info-heading">SYNTRA HUB</h3>
+                <div class="showcase_info-text">Hanoi, Vietnam | Workplace</div>
+            </div>
+        </div>
+
+        <div class="showcase_image_container is-4">
+            <div class="showcase_info-wrapper">
+                <h3 class="showcase_info-heading">LUNAR BAY</h3>
+                <div class="showcase_info-text">Bali, Indonesia | Hospitality</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="section_expertise" id="expertise">
+        <!-- Left Column: Text -->
+        <div class="expertise-list-wrapper">
+            <h2 class="expertise-title">OUR EXPERTISE</h2>
+            <div class="expertise-list">
+                <div class="expertise-list-item" data-image="./expertise-images/residential.jpg" data-number="01">
+                    Residential Design
+                </div>
+                <div class="expertise-description">
+                    We create modern, functional, and sustainable homes that reflect each client’s lifestyle and vision
+                    — from single houses to luxury villas.
+                </div>
+                <hr class="divider">
+
+                <div class="expertise-list-item" data-image="./expertise-images/office.jpg" data-number="02">Commercial &
+                    Office
+                    Spaces</div>
+                <div class="expertise-description">
+                    Our team designs efficient, inspiring workplaces and commercial buildings that enhance productivity
+                    and brand identity.
+                </div>
+                <hr class="divider">
+
+                <div class="expertise-list-item" data-image="./expertise-images/interior.jpg" data-number="03">Interior
+                    Architecture
+                </div>
+                <div class="expertise-description">
+                    We focus on human-centered interiors with aesthetic balance, combining materials, light, and space
+                    to craft meaningful environments.
+                </div>
+                <hr class="divider">
+
+                <div class="expertise-list-item" data-image="./expertise-images/urban.jpg" data-number="04">Urban &
+                    Landscape Design
+                </div>
+                <div class="expertise-description">
+                    We integrate architecture with nature — designing public spaces, green areas, and urban plans that
+                    foster community and sustainability.
+                </div>
+                <hr class="divider">
+
+            </div>
+        </div>
+
+        <!-- Right Column: Image -->
+        <div class="expertise-image">
+            <img id="current-image" src="./expertise-images/office.jpg" alt="residential">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section_contact" id="contact">
+        <div class="contact_container">
+            <div class="contact_content">
+                <h2 class="contact_title">GET IN TOUCH</h2>
+                <p class="contact_subtitle">Let's bring your vision to life. Reach out to discuss your next project.</p>
+
+                <form class="contact_form" novalidate>
+                    <div class="form_row">
+                        <input type="text" placeholder="Your Name" class="form_input" name="name">
+                        <input type="email" placeholder="Your Email" class="form_input" name="email">
+                    </div>
+                    <div class="form_row">
+                        <input type="text" placeholder="Subject" class="form_input" name="subject">
+                    </div>
+                    <div class="form_row">
+                        <textarea placeholder="Your Message" class="form_textarea" rows="5" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="form_submit-button">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_content">
+            <div class="footer_brand">
+                <svg width="180" height="40" viewBox="0 0 180 40" fill="none" aria-label="K.STUDIO logo">
+                    <text x="50%" y="28" text-anchor="middle" font-family="Montserrat" font-size="24" font-weight="700"
+                        fill="white">K.STUDIO</text>
+                </svg>
+                <p class="footer_tagline">Designing the Future</p>
+            </div>
+            <div class="footer_links">
+                <a href="#home" class="footer_link">Home</a>
+                <a href="#projects" class="footer_link">Projects</a>
+                <a href="#expertise" class="footer_link">Expertise</a>
+                <a href="#contact" class="footer_link">Contact</a>
+            </div>
+            <div class="footer_legal">
+                <span>&copy; 2025 K.STUDIO. All rights reserved.</span>
+                <a href="#" class="footer_policy">Privacy Policy</a>
+                <a href="#" class="footer_policy">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+</body>
+
+</html>
