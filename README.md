@@ -20,7 +20,7 @@ https://your-project.vercel.app
 
 ### Desktop
 
-![Desktop Wireframe](ArchitectWebsite_wireframe_desktop.jpg)
+![Desktop Wireframe](ArchitectWebsite_wireframe_destop.jpg)
 
 ### Mobile
 
