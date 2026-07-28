@@ -8,7 +8,7 @@ Developed as part of the **953104 – Interactive Website** course.
 
 ## Live Demo
 
-(https://k-khant.github.io/kstudio-architecture-website/)
+(https://win-kk.github.io/kstudio-architecture-website/)
 
 ---
 
@@ -233,7 +233,7 @@ This project strengthened my understanding of:
 
 **Win Khant Ko Ko**
 
-GitHub: https://github.com/K-Khant
+GitHub: https://github.com/win-kk
 
 ---
 
